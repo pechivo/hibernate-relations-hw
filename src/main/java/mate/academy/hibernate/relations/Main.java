@@ -24,7 +24,7 @@ public class Main {
         CountryService countryService = new CountryServiceImpl(new CountryDaoImpl(sessionFactory));
         countryService.add(usa);
 
-        Actor vinDiesel = new Actor("Vin Diesel");
+        Actor vinDiesel = new Actor("Vin Diesell");
         vinDiesel.setCountry(usa);
         ActorService actorService = new ActorServiceImpl(new ActorDaoImpl(sessionFactory));
         actorService.add(vinDiesel);
